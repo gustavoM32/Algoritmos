@@ -1,4 +1,7 @@
-/* Depth First Search */
+/*
+    Depth First Search
+    Complexity: O(vertices + edges)
+*/
 #include <bits/stdc++.h>
 using namespace std;
 

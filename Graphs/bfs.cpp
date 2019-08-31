@@ -1,4 +1,7 @@
-/* Breadth First Search */
+/*
+    Breadth First Search
+    Complexity: O(vertices + edges)
+*/
 #include <bits/stdc++.h>
 using namespace std;
 

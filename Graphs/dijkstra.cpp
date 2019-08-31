@@ -1,4 +1,7 @@
-/* Dijkstra’s shortest path algorithm */
+/*
+    Dijkstra’s shortest path algorithm
+    Complexity: O(edges * log(vertices))
+*/
 #include <bits/stdc++.h>
 using namespace std;
 

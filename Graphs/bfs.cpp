@@ -11,13 +11,13 @@ void bfs(int root) {
     queue<int> check;
     check.push(root);
     visited[root] = true;
-    
+
     while (!check.empty()) {
         int curNode = check.front();
         check.pop();
         cout << "Visiting node " << curNode << endl;
         for (auto it = adj[curNode].begin(); it != adj[curNode].end(); it++) {
-            if (visited[*it]) break;
+            if (visited[*it]) continue;
             visited[*it] = true;
             check.push(*it);
         }

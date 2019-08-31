@@ -12,7 +12,6 @@ void dfs(int root) {
     cout << "Visiting node " << root << endl;
     for (auto it = adj[root].begin(); it != adj[root].end(); it++) {
         if (visited[*it]) continue;
-        visited[*it] = true;
         dfs(*it);
     }
 }

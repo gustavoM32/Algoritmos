@@ -43,7 +43,7 @@ int fbs(int arr[], int x, int s, int e) {
 }
 
 /*
-    Devolve o menor índice do vetor 'arr' cujo elemento é 'x' ou
+    Devolve o maior índice do vetor 'arr' cujo elemento é 'x' ou
     -1 se não encontrar.
     arr - vetor ordenado
     x - valor que se procura

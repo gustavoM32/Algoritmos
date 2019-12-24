@@ -1,6 +1,6 @@
 /*
     Prim’s Minimum Spanning Tree
-    Complexity: O(vertices^vertices)
+    Complexity: O(vertices ^ 2)
 */
 #include <bits/stdc++.h>
 using namespace std;

@@ -7,8 +7,8 @@ using namespace std;
 
 #define N 10010
 
-int st[2*N];
-int lazy[2*N];
+int st[4*N];
+int lazy[4*N];
 
 int query(int i, int ns, int ne, int qs, int qe) {
     if (lazy[i] != 0) {

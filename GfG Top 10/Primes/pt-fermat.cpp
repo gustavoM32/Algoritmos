@@ -1,6 +1,6 @@
 /*
-    Primality Test - Fermat Method
-    Complexity: O(k * log(n))
+	Primality Test - Fermat Method
+	Complexity: O(k * log(n))
 */
 #include <bits/stdc++.h>
 using namespace std;
@@ -37,12 +37,12 @@ bool isPrime(long long n, int k) {
 }
 
 int main() {
-    long long t, n;
+	long long t, n;
 	cin >> t;
 	while (t--) {
 		cin >> n;
 		if (isPrime(n, 10000)) cout << "Yes\n";
 		else cout << "No\n";
 	}
-    return 0;
+	return 0;
 }

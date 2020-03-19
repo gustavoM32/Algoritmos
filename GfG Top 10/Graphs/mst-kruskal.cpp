@@ -1,6 +1,6 @@
 /*
-    Kruskal's Minimum Spanning Tree
-    Complexity: O(edges * log(edges))
+	Kruskal's Minimum Spanning Tree
+	Complexity: O(edges * log(edges))
 */
 #include <bits/stdc++.h>
 using namespace std;
@@ -63,9 +63,9 @@ void mst(int n, int e) {
 int main() {
 	int n, e;
 	cin >> n >> e;
-    for (int i = 0; i < e; i++) {
+	for (int i = 0; i < e; i++) {
 		cin >> graph[i].a >> graph[i].b >> graph[i].w;
 	}
 	mst(n, e);
-    return 0;
+	return 0;
 }

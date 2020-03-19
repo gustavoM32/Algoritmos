@@ -1,6 +1,6 @@
 /*
-    Rabin-Karp Algorithm fpr Pattern Searching
-    Complexity: O(n * m) avg O(n + m)
+	Rabin-Karp Algorithm fpr Pattern Searching
+	Complexity: O(n * m) avg O(n + m)
 */
 #include <bits/stdc++.h>
 using namespace std;
@@ -39,7 +39,7 @@ void search() {
 }
 
 int main() {
-    cin >> txt >> pat;
+	cin >> txt >> pat;
 	search();
-    return 0;
+	return 0;
 }

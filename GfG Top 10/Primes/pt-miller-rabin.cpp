@@ -1,6 +1,6 @@
 /*
-    Primality Test - Miller Rabin Method
-    Complexity: O(k * log(n) ^ 3)
+	Primality Test - Miller Rabin Method
+	Complexity: O(k * log(n) ^ 3)
 */
 #include <bits/stdc++.h>
 using namespace std;
@@ -51,5 +51,5 @@ int main() {
 		if (isPrime(n, 10000)) cout << "Yes\n";
 		else cout << "No\n";
 	}
-    return 0;
+	return 0;
 }

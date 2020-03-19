@@ -1,6 +1,6 @@
 /*
-    Nth Catalan
-    Complexity: O(n ^ 2)
+	Nth Catalan
+	Complexity: O(n ^ 2)
 */
 #include <bits/stdc++.h>
 using namespace std;
@@ -27,8 +27,8 @@ int catalan(int n) {
 }
 
 int main() {
-    int n;
+	int n;
 	cin >> n;
 	cout << catalan(n) << "\n";
-    return 0;
+	return 0;
 }

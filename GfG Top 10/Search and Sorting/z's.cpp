@@ -1,11 +1,11 @@
 /*
-    Nome do Algoritmo
-    Complexity: O()
+	Z Algorithm
+	Complexity: O(n + m)
 */
 #include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-    
-    return 0;
+	
+	return 0;
 }

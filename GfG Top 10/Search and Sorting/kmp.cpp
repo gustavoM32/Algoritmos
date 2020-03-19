@@ -1,6 +1,6 @@
 /*
-    KMP Pattern Searching
-    Complexity: O(n)
+	KMP Pattern Searching
+	Complexity: O(n)
 */
 #include <bits/stdc++.h>
 using namespace std;
@@ -51,5 +51,5 @@ void kmp() {
 int main() {
 	cin >> txt >> pat;
 	kmp();
-    return 0;
+	return 0;
 }

@@ -1,6 +1,6 @@
 /*
-    nCr % p
-    Complexity: O(p ^ 2 * log (n))
+	nCr % p
+	Complexity: O(p ^ 2 * log (n))
 */
 #include <bits/stdc++.h>
 using namespace std;
@@ -31,8 +31,8 @@ int nCrModLucas(int n, int r, int p) {
 }
 
 int main() {
-    int n, r, p;
+	int n, r, p;
 	cin >> n >> r >> p;
 	cout << nCrModLucas(n, r, p) << "\n";
-    return 0;
+	return 0;
 }

@@ -1,6 +1,6 @@
 /*
-    Counting inversions using BIT
-    Complexity: O(n * log(n))
+	Counting inversions using BIT
+	Complexity: O(n * log(n))
 */
 #include <bits/stdc++.h>
 using namespace std;
@@ -57,5 +57,5 @@ int main() {
 		cin >> arr[i];
 	}
 	cout << countInv(arr) << "\n";
-    return 0;
+	return 0;
 }

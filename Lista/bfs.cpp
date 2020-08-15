@@ -37,7 +37,7 @@ void graphInit(int v, int e) {
 	r - vértice raiz
 */
 //[
-void bfs(int r) {
+void bfsMain(int r) {
 	queue<int> q;
 	dist[r] = 0;
 	q.push(r);
@@ -61,11 +61,11 @@ void bfs(int r) {
 	v - número de vértices
 */
 //[
-void bfsU(int r, int v) {
+void bfs(int r, int v) {
 	for (int i = 0; i < v; i++) {
 		dist[i] = -1;
 	}
-	bfs(r);
+	bfsMain(r);
 }
 //]
 
@@ -73,7 +73,7 @@ int main() {
 	int v, e;
 	cin >> v >> e;
 	graphInit(v, e);
-	bfsU(0, v);
+	bfs(0, v);
 	for (int i = 0; i < v; i++) {
 		cout << dist[i] << " ";
 	}

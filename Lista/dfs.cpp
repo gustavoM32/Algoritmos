@@ -37,12 +37,12 @@ void graphInit(int v, int e) {
 	r - vértice raiz
 */
 //[
-void dfs(int cv) {
+void dfsMain(int cv) {
 	visited[cv] = true;
 	for (int i = 0; i < adjs[cv].size(); i++) {
 		int av = adjs[cv][i];
 		if (!visited[av]) {
-			dfs(av);
+			dfsMain(av);
 		}
 	}
 }
@@ -52,11 +52,11 @@ void dfs(int cv) {
 	Reseta o estado dos vérticies e chama dfs.
 */
 //[
-void dfsU(int r, int v) {
+void dfs(int r, int v) {
 	for (int i = 0; i < v; i++) {
 		visited[i] = false;
 	}
-	dfs(r);
+	dfsMain(r);
 }
 //]
 
@@ -64,7 +64,7 @@ int main() {
 	int v, e;
 	cin >> v >> e;
 	graphInit(v, e);
-	dfsU(0, v);
+	dfs(0, v);
 	for (int i = 0; i < v; i++) {
 		cout << visited[i] << " ";
 	}

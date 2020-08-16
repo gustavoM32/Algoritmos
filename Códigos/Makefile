@@ -1,0 +1,2 @@
+update:
+	ruby snippets.rb

@@ -35,3 +35,4 @@ metadataFile.close
 snippetsFile.close
 
 File.open(snippetsFilePath, "w") { |f| f.write JSON.pretty_generate(finalSnippets) }
+puts "Snippets updated!"

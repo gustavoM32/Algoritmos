@@ -1,30 +1,30 @@
 {
 	"bfs.cpp": {
-		"nome": "Breadth First Search",
+		"nome": "Busca em largura (BFS)",
 		"complexidade": "O(v + e)",
 		"atalho": "bfs",
 		"descrição": "Encontra as distâncias mínimas de um vértice a todos os outros em um grafo."
 	},
 	"dfs.cpp": {
-		"nome": "Depth First Search",
+		"nome": "Busca em profundidade (DFS)",
 		"complexidade": "O(v + e)",
 		"atalho": "dfs",
 		"descrição": "Encontra os vértices adjacentes a um dado vértice."
 	},
 	"binary-search.cpp": {
-		"nome": "Binary Search",
+		"nome": "Busca binária",
 		"complexidade": "O(n * log(n))",
 		"atalho": "bSearch",
 		"descrição": "Encontra o índice de um elemento em um vetor."
 	},
 	"binary-exp.cpp": {
-		"nome": "Binary Exponentiation",
+		"nome": "Exponenciação binária",
 		"complexidade": "O(log(b))",
 		"atalho": "binexp",
 		"descrição": "Eleva um número a um determinado expoente de maneira eficiente."
 	},
 	"binary-modexp.cpp": {
-		"nome": "Modular Binary Exponentiation",
+		"nome": "Exponenciação binária modular",
 		"complexidade": "O(log(b))",
 		"atalho": "modexp",
 		"descrição": "Eleva um número a um determinado expoente em módulo de maneira eficiente."

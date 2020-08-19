@@ -34,5 +34,11 @@
 		"complexidade": "O(log(min(a, b)))",
 		"atalho": "gcd",
 		"descrição": "Calcula o MDC entre dois números."
+	},
+	"extended-euclides.cpp": {
+		"nome": "Algoritmo de Euclides Estendido",
+		"complexidade": "O(log(min(a, b)))",
+		"atalho": "gcdExt",
+		"descrição": "Calcula os coeficientes do Algoritmo de Euclides Estendido."
 	}
 }

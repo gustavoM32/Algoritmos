@@ -33,6 +33,6 @@
 		"nome": "Algoritmo de Euclides",
 		"complexidade": "O(log(min(a, b)))",
 		"atalho": "gcd",
-		"descrição": "Eleva um número a um determinado expoente em módulo de maneira eficiente."
+		"descrição": "Calcula o MDC entre dois números."
 	}
 }

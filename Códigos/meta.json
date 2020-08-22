@@ -40,5 +40,11 @@
 		"complexidade": "O(log(min(a, b)))",
 		"atalho": "gcdExt",
 		"descrição": "Calcula os coeficientes do Algoritmo de Euclides Estendido."
+	},
+	"mod-fib.cpp": {
+		"nome": "Fibonacci Modular",
+		"complexidade": "O(log(n))",
+		"atalho": "modfib",
+		"descrição": "Calcula o n-ésimo termo da sequência de Fibonacci."
 	}
 }

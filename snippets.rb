@@ -15,7 +15,7 @@ end
 
 def addSnippets(meta, snippets)
 	meta.each_pair do |filename, metadata|
-		code = File.open("#{filename}").read
+		code = File.open("Códigos/#{filename}").read
 		snippets["#{metadata["nome"]} (Lista)"] = {
 			"prefix": metadata["atalho"],
 			"body": removeComments(code).split("\n"),

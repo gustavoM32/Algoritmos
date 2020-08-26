@@ -52,5 +52,11 @@
 		"complexidade": "O(n*log(log(n)))",
 		"atalho": "sieve",
 		"descrição": "Acha os primos de 1 a n."
+	},
+	"sieve-range.cpp": {
+		"nome": "Crivo de Eratóstenes Intervalo",
+		"complexidade": "O((R - L + 1)*log(R) + sqrt(R))",
+		"atalho": "sieveRange",
+		"descrição": "Acha os primos de L a R."
 	}
 }

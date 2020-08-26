@@ -58,5 +58,11 @@
 		"complexidade": "O((R - L + 1)*log(R) + sqrt(R))",
 		"atalho": "sieveRange",
 		"descrição": "Acha os primos de L a R."
+	},
+	"sieve-linear.cpp": {
+		"nome": "Crivo de Eratóstenes Linear",
+		"complexidade": "O(n)",
+		"atalho": "sieveLinear",
+		"descrição": "Acha os primos de 2 a n."
 	}
 }

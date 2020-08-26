@@ -46,5 +46,11 @@
 		"complexidade": "O(log(n))",
 		"atalho": "modfib",
 		"descrição": "Calcula o n-ésimo termo da sequência de Fibonacci."
+	},
+	"sieve.cpp": {
+		"nome": "Crivo de Eratóstenes",
+		"complexidade": "O(n*log(log(n)))",
+		"atalho": "sieve",
+		"descrição": "Acha os primos de 1 a n."
 	}
 }

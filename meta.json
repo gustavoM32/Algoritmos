@@ -64,5 +64,11 @@
 		"complexidade": "O(n)",
 		"atalho": "sieveLinear",
 		"descrição": "Acha os primos de 2 a n."
+	},
+	"miller-rabin.cpp": {
+		"nome": "Teste primo de Miller-Rabin",
+		"complexidade": "O(log(n))",
+		"atalho": "millerRabin",
+		"descrição": "Diz se um número é primo ou não."
 	}
 }

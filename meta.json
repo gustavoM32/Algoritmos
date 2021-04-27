@@ -3,72 +3,84 @@
 		"nome": "Busca em largura (BFS)",
 		"complexidade": "O(v + e)",
 		"atalho": "bfs",
-		"descrição": "Encontra as distâncias mínimas de um vértice a todos os outros em um grafo."
+		"descrição": "Encontra as distâncias mínimas de um vértice a todos os outros em um grafo.",
+		"tipo": ["snippet"]
 	},
 	"dfs.cpp": {
 		"nome": "Busca em profundidade (DFS)",
 		"complexidade": "O(v + e)",
 		"atalho": "dfs",
-		"descrição": "Encontra os vértices adjacentes a um dado vértice."
+		"descrição": "Encontra os vértices adjacentes a um dado vértice.",
+		"tipo": ["snippet"]
 	},
 	"binary-search.cpp": {
 		"nome": "Busca binária",
 		"complexidade": "O(n * log(n))",
 		"atalho": "bSearch",
-		"descrição": "Encontra o índice de um elemento em um vetor."
+		"descrição": "Encontra o índice de um elemento em um vetor.",
+		"tipo": ["snippet"]
 	},
 	"binary-exp.cpp": {
 		"nome": "Exponenciação binária",
 		"complexidade": "O(log(b))",
 		"atalho": "binexp",
-		"descrição": "Eleva um número a um determinado expoente de maneira eficiente."
+		"descrição": "Eleva um número a um determinado expoente de maneira eficiente.",
+		"tipo": ["snippet"]
 	},
 	"binary-modexp.cpp": {
 		"nome": "Exponenciação binária modular",
 		"complexidade": "O(log(b))",
 		"atalho": "modexp",
-		"descrição": "Eleva um número a um determinado expoente em módulo de maneira eficiente."
+		"descrição": "Eleva um número a um determinado expoente em módulo de maneira eficiente.",
+		"tipo": ["snippet"]
 	},
 	"gcd.cpp": {
 		"nome": "Algoritmo de Euclides",
 		"complexidade": "O(log(min(a, b)))",
 		"atalho": "gcd",
-		"descrição": "Calcula o MDC entre dois números."
+		"descrição": "Calcula o MDC entre dois números.",
+		"tipo": ["snippet"]
 	},
 	"extended-euclides.cpp": {
 		"nome": "Algoritmo de Euclides Estendido",
 		"complexidade": "O(log(min(a, b)))",
 		"atalho": "gcdExt",
-		"descrição": "Calcula os coeficientes do Algoritmo de Euclides Estendido."
+		"descrição": "Calcula os coeficientes do Algoritmo de Euclides Estendido.",
+		"tipo": ["snippet", "lista"]
 	},
 	"mod-fib.cpp": {
 		"nome": "Fibonacci Modular",
 		"complexidade": "O(log(n))",
 		"atalho": "modfib",
-		"descrição": "Calcula o n-ésimo termo da sequência de Fibonacci."
+		"descrição": "Calcula o n-ésimo termo da sequência de Fibonacci.",
+		"tipo": ["snippet", "lista"]
 	},
 	"sieve.cpp": {
 		"nome": "Crivo de Eratóstenes",
 		"complexidade": "O(n*log(log(n)))",
 		"atalho": "sieve",
-		"descrição": "Acha os primos de 1 a n."
+		"descrição": "Acha os primos de 1 a n.",
+		"tipo": ["snippet"]
 	},
 	"sieve-range.cpp": {
 		"nome": "Crivo de Eratóstenes Intervalo",
 		"complexidade": "O((R - L + 1)*log(R) + sqrt(R))",
 		"atalho": "sieveRange",
-		"descrição": "Acha os primos de L a R."
+		"descrição": "Acha os primos de L a R.",
+		"tipo": ["snippet", "lista"]
 	},
 	"sieve-linear.cpp": {
 		"nome": "Crivo de Eratóstenes Linear",
 		"complexidade": "O(n)",
 		"atalho": "sieveLinear",
-		"descrição": "Acha os primos de 2 a n."
+		"descrição": "Acha os primos de 2 a n.",
+		"tipo": ["snippet"]
 	},
 	"miller-rabin.cpp": {
 		"nome": "Teste primo de Miller-Rabin",
 		"complexidade": "O(log(n))",
 		"atalho": "millerRabin",
-		"descrição": "Diz se um número é primo ou não."
+		"descrição": "Diz se um número é primo ou não.",
+		"tipo": ["snippet", "lista"]
 	}
 }

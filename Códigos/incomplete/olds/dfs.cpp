@@ -13,7 +13,7 @@ void dfsRec(int cv) {
 	for (int i = 0; i < adjs[cv].size(); i++) {
 		int av = adjs[cv][i];
 		if (!visited[av]) {
-			dfsMain(av);
+			dfsRec(av);
 		}
 	}
 }

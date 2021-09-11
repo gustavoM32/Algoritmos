@@ -1,7 +1,9 @@
-/*
-	Devolve o MDC dos números a e b
-	a, b - números naturais
-*/
-long long gcd(long long a, long long b) {
+/* Greatest common divisor
+ *
+ * a, b - non-negative integers
+ *
+ * Complexity: O(log(min(a, b)))
+ */
+ll gcd(ll a, ll b) {
 	return b ? gcd(b, a % b) : a;
 }
